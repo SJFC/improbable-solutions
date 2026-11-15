@@ -1,6 +1,8 @@
 # The Ministry of Improbable Solutions to Small Problems
 
-First-draft working prototype of the Ministry website. Plain HTML, CSS and JavaScript: no build step, no paid services, nothing stored.
+First-draft working prototype of the Ministry website. Plain HTML, CSS and JavaScript.
+
+This is a very early draft, with placeholder text, as part of an initial MDes hand-in before the site is further developed.
 
 ## Files
 
