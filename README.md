@@ -3,6 +3,7 @@
 First-draft working prototype of the Ministry website. Plain HTML, CSS and JavaScript.
 
 This is a very early draft, with placeholder text, as part of an initial MDes hand-in before the site is further developed.
+It is frozen, as an example of work in progress. A sister repo has been developed where work is ongoing.
 
 ## Files
 
