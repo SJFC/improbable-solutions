@@ -18,6 +18,7 @@ Poetic form works as the logic of each solution, e.g. the sestina's 6-1-5-2-4-3 
 - `broadside.html` — Report No. 39 (starling, sestina) as a single broadside, with the registers beneath it
 - `report-40.html` — Report No. 40 (starling, ballad), same layout
 - `report-50.html` to `report-61.html` — Reports 50 (woodpecker, villanelle), 51 (woodpecker, alliterative verse), 52 (house sparrow, ballad), 54 (domestic cat, cyhydedd naw ban), 55 (hermit crab, somonka) and 61 (minke whale, pantoum)
+- `large-problems.html` — the Ministry's policy on large problems, with the record of problems found to be large (linked from the Small print and the Ethics section, not the main menu)
 - `methods.html` — poetic logic as a solution engine, with the two machine collages
 - `styles.css` — all styling
 - `script.js` — the rigged deal (only written combinations are dealt) and the objection and amendment flow
