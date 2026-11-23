@@ -17,9 +17,10 @@ Poetic form works as the logic of each solution, e.g. the sestina's 6-1-5-2-4-3 
 - `index.html` — the consultation (home) page, with the Small print
 - `broadside.html` — Report No. 39 (starling, sestina) as a single broadside, with the registers beneath it
 - `report-40.html` — Report No. 40 (starling, ballad), same layout
+- `report-50.html` to `report-61.html` — Reports 50 (woodpecker, villanelle), 51 (woodpecker, alliterative verse), 52 (house sparrow, ballad), 54 (domestic cat, cyhydedd naw ban), 55 (hermit crab, somonka) and 61 (minke whale, pantoum)
 - `methods.html` — poetic logic as a solution engine, with the two machine collages
 - `styles.css` — all styling
-- `script.js` — dealing the creature and form; the objection and amendment flow
+- `script.js` — the rigged deal (only written combinations are dealt) and the objection and amendment flow
 - `images/` — the paper-theatre collage and the two machine collages
 
 ## Design
@@ -32,5 +33,6 @@ Poetic form works as the logic of each solution, e.g. the sestina's 6-1-5-2-4-3 
 
 - Text in [square brackets] is a placeholder: the joint department name, the credit line, the consent and data note, the starling composite, and the Methods notes on sources and credit.
 - The registers do not save anything yet. Each shows "This is a prototype: nothing has been stored."
-- The findings button always opens Report 39, whatever was dealt. The Report 49 link also opens Report 39.
-- The lists of creatures and forms are at the top of `script.js`.
+- The Report 49 link in Recently issued still opens Report 39, as there is no Report 49 page yet.
+- The deal is rigged: the list of written reports is at the top of `script.js`. To add one, add a line there and a matching problem button in `index.html`.
+- Image slots: each new broadside shows the paper theatre until its own image is saved under the name in its caption (e.g. `images/report-50-woodpecker.jpg`). Then update that image's alt text and caption.

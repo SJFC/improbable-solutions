@@ -614,3 +614,6 @@ input[type="text"] { flex: 1 1 260px; min-width: 0; min-height: 46px; padding: 0
   .principle { font-size: 25px; }
   .site-footer-inner { padding: 28px 18px 40px; }
 }
+
+/* Shown when "Deal again" can only deal the same written solution */
+.deal-status { margin-top: 12px; font-size: 19px; }
