@@ -29,10 +29,4 @@ Poetic form works as the logic of each solution, e.g. the sestina's 6-1-5-2-4-3 
 - Type: Cormorant Garamond for display, Source Serif 4 for reading, IBM Plex Mono for the paperwork.
 - Broadsides are single printed sheets on lighter paper. The consultation and Methods pages are a single column of the same width, with the Ministry's terms gathered into a numbered Small print section.
 
-## Still to do
 
-- Text in [square brackets] is a placeholder: the joint department name, the credit line, the consent and data note, the starling composite, and the Methods notes on sources and credit.
-- The registers do not save anything yet. Each shows "This is a prototype: nothing has been stored."
-- The Report 49 link in Recently issued still opens Report 39, as there is no Report 49 page yet.
-- The deal is rigged: the list of written reports is at the top of `script.js`. To add one, add a line there and a matching problem button in `index.html`.
-- Image slots: each new broadside shows the paper theatre until its own image is saved under the name in its caption (e.g. `images/report-50-woodpecker.jpg`). Then update that image's alt text and caption.
