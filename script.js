@@ -10,10 +10,7 @@
     { problem: 'Parking fines',     creature: 'Starling',      form: 'sestina',            page: 'broadside.html' },
     { problem: 'Parking fines',     creature: 'Starling',      form: 'ballad',             page: 'report-40.html' },
     { problem: 'Unanswered emails', creature: 'Woodpecker',    form: 'villanelle',         page: 'report-50.html' },
-    { problem: 'Rising sea levels', creature: 'Woodpecker',    form: 'alliterative verse', page: 'report-51.html' },
-    { problem: 'Loneliness',        creature: 'House sparrow', form: 'ballad',             page: 'report-52.html' },
     { problem: 'Long meetings',     creature: 'Domestic cat',  form: 'cyhydedd naw ban',   page: 'report-54.html' },
-    { problem: 'Food waste',        creature: 'Hermit crab',   form: 'somonka',            page: 'report-55.html' },
     { problem: 'Cold tea',          creature: 'Minke whale',   form: 'pantoum',            page: 'report-61.html' }
   ];
 

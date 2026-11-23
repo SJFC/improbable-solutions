@@ -617,3 +617,22 @@ input[type="text"] { flex: 1 1 260px; min-width: 0; min-height: 46px; padding: 0
 
 /* Shown when "Deal again" can only deal the same written solution */
 .deal-status { margin-top: 12px; font-size: 19px; }
+
+/* Ethics: large problems, rejected after the findings were issued */
+.ethics { margin-top: 20px; }
+.ethics-stamp {
+  margin: 0 0 6px;
+  font-family: var(--display-sc);
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.32em;
+  color: var(--red);
+}
+.ethics-note {
+  margin: 0 0 16px;
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 21px;
+  line-height: 1.35;
+  color: var(--ink-soft);
+}
