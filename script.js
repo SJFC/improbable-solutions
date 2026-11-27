@@ -6,12 +6,23 @@
 
   // The deal is rigged: the Ministry only deals combinations that have been written.
   // To add a report, add a line here and a matching button on the home page.
+  // image and alt: the production shown on the home-page stage when this report is dealt.
+  // If a report has no image yet (or the file is missing), the stage keeps the placeholder.
   var REPORTS = [
     { problem: 'Parking fines',     creature: 'Starling',      form: 'sestina',            page: 'broadside.html' },
     { problem: 'Parking fines',     creature: 'Starling',      form: 'ballad',             page: 'report-40.html' },
-    { problem: 'Unanswered emails', creature: 'Woodpecker',    form: 'villanelle',         page: 'report-50.html' },
-    { problem: 'Long meetings',     creature: 'Domestic cat',  form: 'cyhydedd naw ban',   page: 'report-54.html' },
-    { problem: 'Cold tea',          creature: 'Minke whale',   form: 'pantoum',            page: 'report-61.html' }
+    { problem: 'Unanswered emails', creature: 'Woodpecker',    form: 'villanelle',         page: 'report-50.html',
+      image: 'images/report-50-woodpecker.jpg',
+      alt: 'Collaged paper theatre staging Report 50: woodpeckers and the villanelle.' },
+    { problem: 'Long meetings',     creature: 'Domestic cat',  form: 'cyhydedd naw ban',   page: 'report-54.html',
+      image: 'images/report-54-cat.jpg',
+      alt: 'Collaged paper theatre staging Report 54: domestic cats and the cyhydedd naw ban.' },
+    { problem: 'Cold tea',          creature: 'Minke whale',   form: 'pantoum',            page: 'report-61.html',
+      image: 'images/report-61-minke-whale.jpg',
+      alt: 'Collaged paper theatre with magenta curtains: a minke whale floats in the air above the sea against an old star chart, while a second, fainter whale swims beneath the surface facing the other way.' },
+    { problem: 'Litter',            creature: 'Electric eel',  form: 'free verse',         page: 'report-62.html',
+      image: 'images/report-62-electric-eel.jpg',
+      alt: 'Collaged paper theatre with red and gold curtains: a large eel from an old natural history plate hangs in an S-curve against an old star chart, while a smaller eel swims in the dark sea below.' }
   ];
 
   // Shown when a problem has only one written solution and the visitor deals again.
@@ -39,6 +50,23 @@
   var findings = document.getElementById('findings');
   var current = REPORTS[0];
 
+  // The stage: shows the placeholder until something is dealt, then that report's production.
+  var stage = document.querySelector('.consult-plate img');
+  var placeholder = stage ? { src: stage.getAttribute('src'), alt: stage.getAttribute('alt') } : null;
+
+  function stageFor(report) {
+    if (!stage) { return; }
+    var src = report.image || placeholder.src;
+    if (stage.getAttribute('src') === src) { return; }
+    stage.onerror = function () {
+      stage.onerror = null;
+      stage.src = placeholder.src;
+      stage.alt = placeholder.alt;
+    };
+    stage.src = src;
+    stage.alt = report.image ? report.alt : placeholder.alt;
+  }
+
   function reportsFor(problem) {
     var list = [];
     for (var i = 0; i < REPORTS.length; i++) {
@@ -53,6 +81,7 @@
     setAll('[data-creature]', report.creature);
     setAll('[data-form]', report.form);
     if (findings) { findings.href = report.page; }
+    stageFor(report);
   }
 
   function dealFor(problem, avoid) {
