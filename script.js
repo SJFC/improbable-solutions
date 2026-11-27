@@ -13,7 +13,7 @@
     { problem: 'Parking fines',     creature: 'Starling',      form: 'ballad',             page: 'report-40.html' },
     { problem: 'Unanswered emails', creature: 'Woodpecker',    form: 'villanelle',         page: 'report-50.html',
       image: 'images/report-50-woodpecker.jpg',
-      alt: 'Collaged paper theatre staging Report 50: woodpeckers and the villanelle.' },
+      alt: 'Collaged paper theatre with blue velvet curtains: a woodpecker perches above dark blue mountains and looks up at a cloud drifting across an old star chart, beside a strip of old lettering reading “Portrait Painter”. Its reflection hangs upside down in the mountains below, next to a pale oak leaf; a deer-headed figure in a Victorian dress stands to the right.' },
     { problem: 'Long meetings',     creature: 'Domestic cat',  form: 'cyhydedd naw ban',   page: 'report-54.html',
       image: 'images/report-54-cat.jpg',
       alt: 'Collaged paper theatre staging Report 54: domestic cats and the cyhydedd naw ban.' },
