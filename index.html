@@ -38,9 +38,12 @@
     <h2 class="step-heading">Form 1 · Your problem</h2>
     <div class="row" id="problems">
       <button type="button" class="choice" aria-pressed="true">Parking fines</button>
+      <button type="button" class="choice" aria-pressed="false">Rising sea levels</button>
       <button type="button" class="choice" aria-pressed="false">Cold tea</button>
       <button type="button" class="choice" aria-pressed="false">Unanswered emails</button>
+      <button type="button" class="choice" aria-pressed="false">Loneliness</button>
       <button type="button" class="choice" aria-pressed="false">Long meetings</button>
+      <button type="button" class="choice" aria-pressed="false">Food waste</button>
       <button type="button" class="choice" aria-pressed="false">Litter</button>
     </div>
   </div>
@@ -54,6 +57,11 @@
     <button type="button" class="btn btn-outline" id="deal">Deal again</button>
     <p class="status deal-status" id="deal-status" role="status" hidden></p>
   </div>
+
+  <aside class="codicil" id="codicil" aria-live="polite" hidden>
+    <p class="ethics-stamp">Codicil · Problem too large</p>
+    <p class="codicil-note">This problem is too large for the Ministry and should not appear on this list. It appears to have crept in. Findings were issued before the error was noticed, and the matter has been referred to Ethics. See the policy on <a href="large-problems.html">large problems</a>.</p>
+  </aside>
 
   <div class="issue">
     <a class="cta" id="findings" href="broadside.html">Receive the Ministry's findings</a>

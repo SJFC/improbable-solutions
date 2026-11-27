@@ -22,7 +22,18 @@
       alt: 'Collaged paper theatre with magenta curtains: a minke whale floats in the air above the sea against an old star chart, while a second, fainter whale swims beneath the surface facing the other way.' },
     { problem: 'Litter',            creature: 'Electric eel',  form: 'free verse',         page: 'report-62.html',
       image: 'images/report-62-electric-eel.jpg',
-      alt: 'Collaged paper theatre with red and gold curtains: a large eel from an old natural history plate hangs in an S-curve against an old star chart, while a smaller eel swims in the dark sea below.' }
+      alt: 'Collaged paper theatre with red and gold curtains: a large eel from an old natural history plate hangs in an S-curve against an old star chart, while a smaller eel swims in the dark sea below.' },
+
+    // Large problems: they have crept onto the list. Dealt as usual, but a codicil refers them to Ethics.
+    { problem: 'Rising sea levels', creature: 'Woodpecker',    form: 'alliterative verse', page: 'report-51.html', large: true,
+      image: 'images/report-51-woodpecker.jpg',
+      alt: 'Collaged paper theatre with blue velvet curtains: a woodpecker looks out of a round hole cut into an old star chart, its reflection upside down in the dark sea below.' },
+    { problem: 'Loneliness',        creature: 'House sparrow', form: 'ballad',             page: 'report-52.html', large: true,
+      image: 'images/report-52-sparrow.jpg',
+      alt: 'Collaged paper theatre staging Report 52: house sparrows and the ballad.' },
+    { problem: 'Food waste',        creature: 'Hermit crab',   form: 'somonka',            page: 'report-55.html', large: true,
+      image: 'images/report-55-hermit-crab.jpg',
+      alt: 'Collaged paper theatre with blue velvet curtains: a hermit crab in a striped shell sits at the centre of a ring of empty seashells floating over an old star chart, reflected upside down in the sea below.' }
   ];
 
   // Shown when a problem has only one written solution and the visitor deals again.
@@ -48,6 +59,7 @@
   var deal = document.getElementById('deal');
   var dealStatus = document.getElementById('deal-status');
   var findings = document.getElementById('findings');
+  var codicil = document.getElementById('codicil');
   var current = REPORTS[0];
 
   // The stage: shows the placeholder until something is dealt, then that report's production.
@@ -82,6 +94,7 @@
     setAll('[data-form]', report.form);
     if (findings) { findings.href = report.page; }
     stageFor(report);
+    if (codicil) { codicil.hidden = !report.large; }
   }
 
   function dealFor(problem, avoid) {
