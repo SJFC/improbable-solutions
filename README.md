@@ -32,7 +32,7 @@ Poetic form works as the logic of each solution, e.g. the sestina's 6-1-5-2-4-3 
 
 ## Still to do
 
-- Text in [square brackets] is a placeholder: the joint department name, the consent and data note, the starling composite, and the Methods note on sources.
+- Text in [square brackets] is a placeholder: the joint department name, the consent and data note, and the Methods note on sources.
 - The registers do not save anything yet. Each shows "This is a prototype: nothing has been stored."
 - The deal is rigged: the list of written reports is at the top of `script.js`. To add one, add a line there and a matching problem button in `index.html`.
 - Image slots: each new broadside shows the paper theatre until its own image is saved under the name in its caption (e.g. `images/report-50-woodpecker.jpg`). Then update that image's alt text and caption.

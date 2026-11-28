@@ -9,8 +9,12 @@
   // image and alt: the production shown on the home-page stage when this report is dealt.
   // If a report has no image yet (or the file is missing), the stage keeps the placeholder.
   var REPORTS = [
-    { problem: 'Parking fines',     creature: 'Starling',      form: 'sestina',            page: 'broadside.html' },
-    { problem: 'Parking fines',     creature: 'Starling',      form: 'ballad',             page: 'report-40.html' },
+    { problem: 'Parking fines',     creature: 'Starling',      form: 'sestina',            page: 'broadside.html',
+      image: 'images/report-39-starling.jpg',
+      alt: 'Collaged paper theatre with indigo velvet curtains: a large iridescent starling stands in front of an eighteenth-century astronomical calendar wheel, while a stream of tiny birds pours like smoke from the sun face at its centre and drifts over dark blue mountains. A smaller starling perches on the ridge, a little owl sits on a purple crystal, and a deer-headed figure in a Victorian dress stands to the right.' },
+    { problem: 'Parking fines',     creature: 'Starling',      form: 'ballad',             page: 'report-40.html',
+      image: 'images/report-39-starling.jpg',
+      alt: 'Collaged paper theatre with indigo velvet curtains: a large iridescent starling stands in front of an eighteenth-century astronomical calendar wheel, while a stream of tiny birds pours like smoke from the sun face at its centre and drifts over dark blue mountains. A smaller starling perches on the ridge, a little owl sits on a purple crystal, and a deer-headed figure in a Victorian dress stands to the right.' },
     { problem: 'Unanswered emails', creature: 'Woodpecker',    form: 'villanelle',         page: 'report-50.html',
       image: 'images/report-50-woodpecker.jpg',
       alt: 'Collaged paper theatre with blue velvet curtains: a woodpecker perches above dark blue mountains and looks up at a cloud drifting across an old star chart, beside a strip of old lettering reading “Portrait Painter”. Its reflection hangs upside down in the mountains below, next to a pale oak leaf; a deer-headed figure in a Victorian dress stands to the right.' },
