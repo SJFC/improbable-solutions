@@ -16,7 +16,7 @@
       alt: 'Collaged paper theatre with blue velvet curtains: a woodpecker perches above dark blue mountains and looks up at a cloud drifting across an old star chart, beside a strip of old lettering reading “Portrait Painter”. Its reflection hangs upside down in the mountains below, next to a pale oak leaf; a deer-headed figure in a Victorian dress stands to the right.' },
     { problem: 'Long meetings',     creature: 'Domestic cat',  form: 'cyhydedd naw ban',   page: 'report-54.html',
       image: 'images/report-54-cat.jpg',
-      alt: 'Collaged paper theatre staging Report 54: domestic cats and the cyhydedd naw ban.' },
+      alt: 'Collaged paper theatre with red and gold curtains: a large tabby cat lies stretched across the stage beneath an eighteenth-century astronomical calendar wheel with a sun face at its centre, its faint reflection in the dark blue ground below. A deer-headed figure in a Victorian dress stands to the left, and a small purple auricula flowers in the corner.' },
     { problem: 'Cold tea',          creature: 'Minke whale',   form: 'pantoum',            page: 'report-61.html',
       image: 'images/report-61-minke-whale.jpg',
       alt: 'Collaged paper theatre with magenta curtains: a minke whale floats in the air above the sea against an old star chart, while a second, fainter whale swims beneath the surface facing the other way.' },
@@ -30,7 +30,7 @@
       alt: 'Collaged paper theatre with blue velvet curtains: a woodpecker looks out of a round hole cut into an old star chart, its reflection upside down in the dark sea below.' },
     { problem: 'Loneliness',        creature: 'House sparrow', form: 'ballad',             page: 'report-52.html', large: true,
       image: 'images/report-52-sparrow.jpg',
-      alt: 'Collaged paper theatre staging Report 52: house sparrows and the ballad.' },
+      alt: 'Collaged paper theatre with plum velvet curtains: a pair of house sparrows, male and female, perch on a bare branch in front of an eighteenth-century astronomical calendar wheel with a sun face at its centre, a small cloud drifting beside them. Below, dark blue mountains, a cluster of purple crystals, and a deer-headed figure in a Victorian dress.' },
     { problem: 'Food waste',        creature: 'Hermit crab',   form: 'somonka',            page: 'report-55.html', large: true,
       image: 'images/report-55-hermit-crab.jpg',
       alt: 'Collaged paper theatre with blue velvet curtains: a hermit crab in a striped shell sits at the centre of a ring of empty seashells floating over an old star chart, reflected upside down in the sea below.' }
